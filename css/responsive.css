@@ -1,0 +1,99 @@
+@media (max-width:576px){
+    #copyright {
+        margin-left: 0;
+        text-align: center;
+    }
+    .footer-area .col-lg-3 {
+        text-align: center;
+
+    }
+   
+    .footer-area {
+        text-align: center;
+    }
+    .footer-img img {
+        margin-left: 0;
+    }
+   
+    .footer-area .col-lg-3 {
+     max-width: 100% !important;
+    } 
+    .footer-area .aa {
+         margin-left: 0px;
+    }
+    
+}
+
+
+
+@media (max-width:768px) {
+    .ex{
+        display: none;
+    }
+    .nav-btn{
+        display:block;
+        font-size: 30px;
+        padding:  0px 16px;;
+    }
+    .mut{
+        padding-left: 232px !important;
+    padding-right: 0px !important;
+    padding-top: 11px !important;
+    padding-bottom: 9px !important;
+}
+
+    
+}
+@media (max-width:570px) {
+    .ex{
+        background: #000;
+        padding: 20px 30px;
+    }
+    ul li{
+        list-style-type: none;
+        display: block;
+    }
+    ul li a{
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .items{
+        margin-left: -300px !important;
+    }
+    .mut{
+        padding-left: 232px !important;
+    padding-right: 0px !important;
+    padding-top: 11px !important;
+    padding-bottom: 9px !important;
+}
+
+.hero-img-2 .lol {
+    padding-left: 0px; 
+}
+.hero-img-2 .lkp img {
+    padding: 10px 15px;
+}
+.hero-img-2 .lop {
+     padding-right: 0px;
+}
+
+.image-41 .lol {
+     padding-left: 0px;
+}
+.image-41 .lkp img {
+    padding: 10px 15px;
+}
+.image-41 .lop {
+     padding-right: 0px; 
+}
+.hero-image .col-lg-12 img {
+    height: 150px;
+}
+.hero-image .col-lg-12 .bottom-right .para {
+    margin-bottom: 85px;
+    margin-right: -107px;
+    color: white;
+    font-size: 13px;
+    font-weight: 600;
+}
+}

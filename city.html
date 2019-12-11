@@ -10,6 +10,8 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
@@ -23,15 +25,18 @@
                   </div>
                   <div class="col-lg-1"></div>
                   <div class="col-lg-3 full-search">   
-                   <div class="search-box">
-                       <div class="col-lg-1">
-                       <i class="fa fa-search" area-hidden="true"></i>
-                    </div>
-                      <p> 
-                          search designer,product and more...
-                      </p>
-                    
-                    </div>
+                        <div class="search-box">
+                                <div class="col-lg-1">
+                                   <i class="fa fa-search" area-hidden="true"></i>
+                             </div>
+                               <p> 
+                                 <input type="text" placeholder=" search designer,product and more..." class="form-control" style="padding-left: 40px;
+                                 padding-top: 10px;
+                                 padding-bottom: 17px;">
+                                  
+                               </p>
+                             
+                             </div>
 
                   </div>
                   <div class="col-lg-1"></div>
@@ -90,24 +95,34 @@
     </div>
       </section>
       <!--end header 2-->
-      <!--start header 3-->
-      <section class="header-3">
-          <div class="row">
-              <div class="container">
-                  <div class="col-lg-3"></div>
-                <p><span class="align" style="color: #E09D00">USD 9.99 standard shipping</span> on international orders over USD 100.
-                </p>
-              </div>
-          </div>
-     </section>
-     <!--end header 3-->
+    
      <!--start sub-header-->
      <section class="sub-header">
          <div class="container">
              <div class="row">
             
                  <div class="col-lg-2">
-                     <h3>National</h3>
+                     <ul>
+                        <li class="dropdown">
+                                <a href="javascript:void(0)" class="dropbtn" style="color: black !important;">National</a>
+                                <div class="dropdown-content">
+                                  <a href="#">National</a>
+                                  <a href="#">Atlanta</a>
+                                  <a href="#">Boston</a>
+                                  <a href="#">Chicago</a>
+                                  <a href="#">Dallas</a>
+                                  <a href="#">Houston</a>
+                                  <a href="#">Los Angles</a>
+                                  <a href="#">Miami</a>
+                                  <a href="#">New York</a>
+                                  <a href="#">Philadelphia</a>
+                                  <a href="#">San Diego </a>
+                                  <a href="#">San Francisco</a>
+                                  <a href="#">Seattle</a>
+                                  <a href="#">Washington DC</a>
+                                </div>
+                              </li>
+                     </ul>
                      </div>
                      <div class="font">
                      <i class="fa fa-chevron-down" area-hidden="true"></i>
@@ -117,26 +132,32 @@
                      <p>42 offers</p>
                  </div>
                  <div class="col-lg-2 hs">
-                     <h6>sort:Featured</h6>
+                        <select name="sortlist" form="sortform" style="padding-left: 10px;
+                        padding-right: 40px; font-size: 13px; padding-top: 5px;padding-bottom: 5px;">
+                                <option value="0" style="padding: 5px;">Sort:Featured</option>
+                                <option value="1" style="padding: 5px;">featured</option>
+                                <option value="2" style="padding: 5px;">low to high</option>
+                                <option value="3" style="padding: 5px;">high to low</option>
+                              </select>
                  </div>
-                 <div class="fo">
-                        <i class="fa fa-chevron-down" area-hidden="true"></i>
-                </div>
+               
 
                  </div>
              
          </div>
      </section>
      <!--end sub-header-->
-     <ol class="weight" id="left" style="list-style-type: none;">
-        <li style="color: #E09D00">show all</li>
-        <li>retail</li>
-        <li>travel</li>
+     <!--start side links-->
+     <ol class="weight" id="left" style="list-style-type: none; padding-left: 10px;">
+        <li style="color: #E09D00;padding: 5px 0;">show all</li>
+        <li style="padding: 5px 0;">retail</li>
+        <li style="padding: 5px 0;">travel</li>
     </ol>
+    <!--end side links-->
      <!--start main image-->
      <section class="city-main-img">
             <div class="container">
-                    <div class="row">   
+                    <div class="row" style="margin-top: -20px;">   
                         <div class="col-lg-4"> 
                            <img class="d-block w-100" id="top" src="images/city/image1.jpg" alt="">
                            <div class="bottom1">
@@ -216,19 +237,17 @@
      </section>
      <!--end main image-->
      <!--start image section-->
-     <section class="city-main-img">
+     <section class="city-main-img city-main2">
             <div class="container">
                 <div class="row">
                         <div class="col-lg-8"> 
-                                <img class="d-block w-100" src="images/city/img1.jpg" alt="">
-                                <div class="bottom1">
-                                     <p>Available in U.S only</span></p>                        
+                                <img class="d-block w-100" src="images/city/img1.jpg" alt="" style="height: 63vh">
+                                <div class="bottom-right">
+                                     <h2>Finish Your Shopping</h2>   
+                                     <h4>Experiences & offers They'll Love</h4>     
+                                     <span class="align" style="color: #E09D00">View Collections</span>                
                                    </div>
-                                   <div class="text">
-                                       <h5>YSL Beaty</h5>
-                                       <P>30% Off Select Items Plus Free Gifts</P>
-                                       <span class="align" style="color: #E09D00">FREE</span>
-                                   </div>
+                                   
                             </div>
                         <div class="col-lg-4"> 
                                 <img class="d-block w-100" src="images/city/img2.jpg" alt="">
@@ -246,7 +265,506 @@
                 </div>
             </div>
         </section>
+    <!--end image section-->
+    <!--start main image 2 container-->
+    <section class="city-main-img">
+        <div class="container">
 
+                <div class="row">   
+                        <div class="col-lg-4"> 
+                           <img class="d-block w-100" src="images/city/image1.jpg" alt="">
+                           <div class="bottom1">
+                                <p>Available in U.S only</span></p>                        
+                              </div>
+                              <div class="text">
+                                  <h5>YSL Beaty</h5>
+                                  <P>30% Off Select Items Plus Free Gifts</P>
+                                  <span class="align" style="color: #E09D00">FREE</span>
+                              </div>
+                       </div>
+                       <div class="col-lg-4 lll"> 
+                          <img class="d-block w-100" src="images/city/image2.jpg" alt="">
+                          <div class="bottom">
+                                <p>Available in U.S only</p>                       
+                              </div>
+                              <div class="text1">
+                                    <h5>Zwilling</h5>
+                                    <P>Upto 40% Off Ballarini Cookware & More</P>
+                                    <span class="align" style="color: #E09D00">$35-$210</span>
+                                    <h6>$50-$300</h6>
+                                </div>
+                       </div>
+                       <div class="col-lg-4"> 
+                         <img class="d-block w-100" src="images/city/image3.jpg" alt="">
+                         <div class="bottom">
+                         <p>Available in U.S only</p>
+                        </div>
+                        <div class="text1">
+                                <h5>Allury Beauty Box</h5>
+                                <P>Up to 80% Off Subscription Plus Bonu Gifts</P>
+                                <span class="align" style="color: #E09D00">$29</span>
+                                <h6>$224</h6>
+                            </div>
+                       </div>
+                     </div>
+              
+
+                 <div class="row">   
+                        <div class="col-lg-4"> 
+                           <img class="d-block w-100" src="images/city/image1.jpg" alt="">
+                           <div class="bottom1">
+                                <p>Available in U.S only</span></p>                        
+                              </div>
+                              <div class="text">
+                                  <h5>YSL Beaty</h5>
+                                  <P>30% Off Select Items Plus Free Gifts</P>
+                                  <span class="align" style="color: #E09D00">FREE</span>
+                              </div>
+                       </div>
+                       <div class="col-lg-4 lll"> 
+                          <img class="d-block w-100" src="images/city/image2.jpg" alt="">
+                          <div class="bottom">
+                                <p>Available in U.S only</p>                       
+                              </div>
+                              <div class="text1">
+                                    <h5>Zwilling</h5>
+                                    <P>Upto 40% Off Ballarini Cookware & More</P>
+                                    <span class="align" style="color: #E09D00">$35-$210</span>
+                                    <h6>$50-$300</h6>
+                                </div>
+                       </div>
+                       <div class="col-lg-4"> 
+                         <img class="d-block w-100" src="images/city/image3.jpg" alt="">
+                         <div class="bottom">
+                         <p>Available in U.S only</p>
+                        </div>
+                        <div class="text1">
+                                <h5>Allury Beauty Box</h5>
+                                <P>Up to 80% Off Subscription Plus Bonu Gifts</P>
+                                <span class="align" style="color: #E09D00">$29</span>
+                                <h6>$224</h6>
+                            </div>
+                       </div>
+                     </div>
+
+                     <div class="row">   
+                            <div class="col-lg-4"> 
+                               <img class="d-block w-100" src="images/city/image1.jpg" alt="">
+                               <div class="bottom1">
+                                    <p>Available in U.S only</span></p>                        
+                                  </div>
+                                  <div class="text">
+                                      <h5>YSL Beaty</h5>
+                                      <P>30% Off Select Items Plus Free Gifts</P>
+                                      <span class="align" style="color: #E09D00">FREE</span>
+                                  </div>
+                           </div>
+                           <div class="col-lg-4 lll"> 
+                              <img class="d-block w-100" src="images/city/image2.jpg" alt="">
+                              <div class="bottom">
+                                    <p>Available in U.S only</p>                       
+                                  </div>
+                                  <div class="text1">
+                                        <h5>Zwilling</h5>
+                                        <P>Upto 40% Off Ballarini Cookware & More</P>
+                                        <span class="align" style="color: #E09D00">$35-$210</span>
+                                        <h6>$50-$300</h6>
+                                    </div>
+                           </div>
+                           <div class="col-lg-4"> 
+                             <img class="d-block w-100" src="images/city/image3.jpg" alt="">
+                             <div class="bottom">
+                             <p>Available in U.S only</p>
+                            </div>
+                            <div class="text1">
+                                    <h5>Allury Beauty Box</h5>
+                                    <P>Up to 80% Off Subscription Plus Bonu Gifts</P>
+                                    <span class="align" style="color: #E09D00">$29</span>
+                                    <h6>$224</h6>
+                                </div>
+                           </div>
+                         </div>
+       
+                         <div class="row">   
+                                <div class="col-lg-4"> 
+                                   <img class="d-block w-100" src="images/city/image1.jpg" alt="">
+                                   <div class="bottom1">
+                                        <p>Available in U.S only</span></p>                        
+                                      </div>
+                                      <div class="text">
+                                          <h5>YSL Beaty</h5>
+                                          <P>30% Off Select Items Plus Free Gifts</P>
+                                          <span class="align" style="color: #E09D00">FREE</span>
+                                      </div>
+                               </div>
+                               <div class="col-lg-4 lll"> 
+                                  <img class="d-block w-100" src="images/city/image2.jpg" alt="">
+                                  <div class="bottom">
+                                        <p>Available in U.S only</p>                       
+                                      </div>
+                                      <div class="text1">
+                                            <h5>Zwilling</h5>
+                                            <P>Upto 40% Off Ballarini Cookware & More</P>
+                                            <span class="align" style="color: #E09D00">$35-$210</span>
+                                            <h6>$50-$300</h6>
+                                        </div>
+                               </div>
+                               <div class="col-lg-4"> 
+                                 <img class="d-block w-100" src="images/city/image3.jpg" alt="">
+                                 <div class="bottom">
+                                 <p>Available in U.S only</p>
+                                </div>
+                                <div class="text1">
+                                        <h5>Allury Beauty Box</h5>
+                                        <P>Up to 80% Off Subscription Plus Bonu Gifts</P>
+                                        <span class="align" style="color: #E09D00">$29</span>
+                                        <h6>$224</h6>
+                                    </div>
+                               </div>
+                             </div>
+
+                             <div class="row">   
+                                    <div class="col-lg-4"> 
+                                       <img class="d-block w-100" src="images/city/image1.jpg" alt="">
+                                       <div class="bottom1">
+                                            <p>Available in U.S only</span></p>                        
+                                          </div>
+                                          <div class="text">
+                                              <h5>YSL Beaty</h5>
+                                              <P>30% Off Select Items Plus Free Gifts</P>
+                                              <span class="align" style="color: #E09D00">FREE</span>
+                                          </div>
+                                   </div>
+                                   <div class="col-lg-4 lll"> 
+                                      <img class="d-block w-100" src="images/city/image2.jpg" alt="">
+                                      <div class="bottom">
+                                            <p>Available in U.S only</p>                       
+                                          </div>
+                                          <div class="text1">
+                                                <h5>Zwilling</h5>
+                                                <P>Upto 40% Off Ballarini Cookware & More</P>
+                                                <span class="align" style="color: #E09D00">$35-$210</span>
+                                                <h6>$50-$300</h6>
+                                            </div>
+                                   </div>
+                                   <div class="col-lg-4"> 
+                                     <img class="d-block w-100" src="images/city/image3.jpg" alt="">
+                                     <div class="bottom">
+                                     <p>Available in U.S only</p>
+                                    </div>
+                                    <div class="text1">
+                                            <h5>Allury Beauty Box</h5>
+                                            <P>Up to 80% Off Subscription Plus Bonu Gifts</P>
+                                            <span class="align" style="color: #E09D00">$29</span>
+                                            <h6>$224</h6>
+                                        </div>
+                                   </div>
+                                 </div>
+
+
+                                 <div class="row">   
+                                        <div class="col-lg-4"> 
+                                           <img class="d-block w-100" src="images/city/image1.jpg" alt="">
+                                           <div class="bottom1">
+                                                <p>Available in U.S only</span></p>                        
+                                              </div>
+                                              <div class="text">
+                                                  <h5>YSL Beaty</h5>
+                                                  <P>30% Off Select Items Plus Free Gifts</P>
+                                                  <span class="align" style="color: #E09D00">FREE</span>
+                                              </div>
+                                       </div>
+                                       <div class="col-lg-4 lll"> 
+                                          <img class="d-block w-100" src="images/city/image2.jpg" alt="">
+                                          <div class="bottom">
+                                                <p>Available in U.S only</p>                       
+                                              </div>
+                                              <div class="text1">
+                                                    <h5>Zwilling</h5>
+                                                    <P>Upto 40% Off Ballarini Cookware & More</P>
+                                                    <span class="align" style="color: #E09D00">$35-$210</span>
+                                                    <h6>$50-$300</h6>
+                                                </div>
+                                       </div>
+                                       <div class="col-lg-4"> 
+                                         <img class="d-block w-100" src="images/city/image3.jpg" alt="">
+                                         <div class="bottom">
+                                         <p>Available in U.S only</p>
+                                        </div>
+                                        <div class="text1">
+                                                <h5>Allury Beauty Box</h5>
+                                                <P>Up to 80% Off Subscription Plus Bonu Gifts</P>
+                                                <span class="align" style="color: #E09D00">$29</span>
+                                                <h6>$224</h6>
+                                            </div>
+                                       </div>
+                                     </div>
+
+
+                                     <div class="row">   
+                                            <div class="col-lg-4"> 
+                                               <img class="d-block w-100" src="images/city/image1.jpg" alt="">
+                                               <div class="bottom1">
+                                                    <p>Available in U.S only</span></p>                        
+                                                  </div>
+                                                  <div class="text">
+                                                      <h5>YSL Beaty</h5>
+                                                      <P>30% Off Select Items Plus Free Gifts</P>
+                                                      <span class="align" style="color: #E09D00">FREE</span>
+                                                  </div>
+                                           </div>
+                                           <div class="col-lg-4 lll"> 
+                                              <img class="d-block w-100" src="images/city/image2.jpg" alt="">
+                                              <div class="bottom">
+                                                    <p>Available in U.S only</p>                       
+                                                  </div>
+                                                  <div class="text1">
+                                                        <h5>Zwilling</h5>
+                                                        <P>Upto 40% Off Ballarini Cookware & More</P>
+                                                        <span class="align" style="color: #E09D00">$35-$210</span>
+                                                        <h6>$50-$300</h6>
+                                                    </div>
+                                           </div>
+                                           <div class="col-lg-4"> 
+                                             <img class="d-block w-100" src="images/city/image3.jpg" alt="">
+                                             <div class="bottom">
+                                             <p>Available in U.S only</p>
+                                            </div>
+                                            <div class="text1">
+                                                    <h5>Allury Beauty Box</h5>
+                                                    <P>Up to 80% Off Subscription Plus Bonu Gifts</P>
+                                                    <span class="align" style="color: #E09D00">$29</span>
+                                                    <h6>$224</h6>
+                                                </div>
+                                           </div>
+                                         </div>
+
+                                         <div class="row">   
+                                                <div class="col-lg-4"> 
+                                                   <img class="d-block w-100" src="images/city/image1.jpg" alt="">
+                                                   <div class="bottom1">
+                                                        <p>Available in U.S only</span></p>                        
+                                                      </div>
+                                                      <div class="text">
+                                                          <h5>YSL Beaty</h5>
+                                                          <P>30% Off Select Items Plus Free Gifts</P>
+                                                          <span class="align" style="color: #E09D00">FREE</span>
+                                                      </div>
+                                               </div>
+                                               <div class="col-lg-4 lll"> 
+                                                  <img class="d-block w-100" src="images/city/image2.jpg" alt="">
+                                                  <div class="bottom">
+                                                        <p>Available in U.S only</p>                       
+                                                      </div>
+                                                      <div class="text1">
+                                                            <h5>Zwilling</h5>
+                                                            <P>Upto 40% Off Ballarini Cookware & More</P>
+                                                            <span class="align" style="color: #E09D00">$35-$210</span>
+                                                            <h6>$50-$300</h6>
+                                                        </div>
+                                               </div>
+                                               <div class="col-lg-4"> 
+                                                 <img class="d-block w-100" src="images/city/image3.jpg" alt="">
+                                                 <div class="bottom">
+                                                 <p>Available in U.S only</p>
+                                                </div>
+                                                <div class="text1">
+                                                        <h5>Allury Beauty Box</h5>
+                                                        <P>Up to 80% Off Subscription Plus Bonu Gifts</P>
+                                                        <span class="align" style="color: #E09D00">$29</span>
+                                                        <h6>$224</h6>
+                                                    </div>
+                                               </div>
+                                             </div>
+
+                                             <div class="row">   
+                                                    <div class="col-lg-4"> 
+                                                       <img class="d-block w-100" src="images/city/image1.jpg" alt="">
+                                                       <div class="bottom1">
+                                                            <p>Available in U.S only</span></p>                        
+                                                          </div>
+                                                          <div class="text">
+                                                              <h5>YSL Beaty</h5>
+                                                              <P>30% Off Select Items Plus Free Gifts</P>
+                                                              <span class="align" style="color: #E09D00">FREE</span>
+                                                          </div>
+                                                   </div>
+                                                   <div class="col-lg-4 lll"> 
+                                                      <img class="d-block w-100" src="images/city/image2.jpg" alt="">
+                                                      <div class="bottom">
+                                                            <p>Available in U.S only</p>                       
+                                                          </div>
+                                                          <div class="text1">
+                                                                <h5>Zwilling</h5>
+                                                                <P>Upto 40% Off Ballarini Cookware & More</P>
+                                                                <span class="align" style="color: #E09D00">$35-$210</span>
+                                                                <h6>$50-$300</h6>
+                                                            </div>
+                                                   </div>
+                                                   <div class="col-lg-4"> 
+                                                     <img class="d-block w-100" src="images/city/image3.jpg" alt="">
+                                                     <div class="bottom">
+                                                     <p>Available in U.S only</p>
+                                                    </div>
+                                                    <div class="text1">
+                                                            <h5>Allury Beauty Box</h5>
+                                                            <P>Up to 80% Off Subscription Plus Bonu Gifts</P>
+                                                            <span class="align" style="color: #E09D00">$29</span>
+                                                            <h6>$224</h6>
+                                                        </div>
+                                                   </div>
+                                                 </div>
+
+                                                 <div class="row">   
+                                                        <div class="col-lg-4"> 
+                                                           <img class="d-block w-100" src="images/city/image1.jpg" alt="">
+                                                           <div class="bottom1">
+                                                                <p>Available in U.S only</span></p>                        
+                                                              </div>
+                                                              <div class="text">
+                                                                  <h5>YSL Beaty</h5>
+                                                                  <P>30% Off Select Items Plus Free Gifts</P>
+                                                                  <span class="align" style="color: #E09D00">FREE</span>
+                                                              </div>
+                                                       </div>
+                                                       <div class="col-lg-4 lll"> 
+                                                          <img class="d-block w-100" src="images/city/image2.jpg" alt="">
+                                                          <div class="bottom">
+                                                                <p>Available in U.S only</p>                       
+                                                              </div>
+                                                              <div class="text1">
+                                                                    <h5>Zwilling</h5>
+                                                                    <P>Upto 40% Off Ballarini Cookware & More</P>
+                                                                    <span class="align" style="color: #E09D00">$35-$210</span>
+                                                                    <h6>$50-$300</h6>
+                                                                </div>
+                                                       </div>
+                                                       <div class="col-lg-4"> 
+                                                         <img class="d-block w-100" src="images/city/image3.jpg" alt="">
+                                                         <div class="bottom">
+                                                         <p>Available in U.S only</p>
+                                                        </div>
+                                                        <div class="text1">
+                                                                <h5>Allury Beauty Box</h5>
+                                                                <P>Up to 80% Off Subscription Plus Bonu Gifts</P>
+                                                                <span class="align" style="color: #E09D00">$29</span>
+                                                                <h6>$224</h6>
+                                                            </div>
+                                                       </div>
+                                                     </div>
+
+
+                                                     <div class="row">   
+                                                            <div class="col-lg-4"> 
+                                                               <img class="d-block w-100" src="images/city/image1.jpg" alt="">
+                                                               <div class="bottom1">
+                                                                    <p>Available in U.S only</span></p>                        
+                                                                  </div>
+                                                                  <div class="text">
+                                                                      <h5>YSL Beaty</h5>
+                                                                      <P>30% Off Select Items Plus Free Gifts</P>
+                                                                      <span class="align" style="color: #E09D00">FREE</span>
+                                                                  </div>
+                                                           </div>
+                                                           <div class="col-lg-4 lll"> 
+                                                              <img class="d-block w-100" src="images/city/image2.jpg" alt="">
+                                                              <div class="bottom">
+                                                                    <p>Available in U.S only</p>                       
+                                                                  </div>
+                                                                  <div class="text1">
+                                                                        <h5>Zwilling</h5>
+                                                                        <P>Upto 40% Off Ballarini Cookware & More</P>
+                                                                        <span class="align" style="color: #E09D00">$35-$210</span>
+                                                                        <h6>$50-$300</h6>
+                                                                    </div>
+                                                           </div>
+
+                                                           </div>
+
+                    </div>
+  
+ </section>
+ <!--end main image 2 container-->
+ <!--start footer area-->
+ <section class="footer-area">
+        <div class="row">
+           <div class=col-lg-1></div>
+          <div class="col-lg-3 aa">
+            
+            <h3>company</h3>
+            <ul>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Brand inquires</a></li>
+            </ul>
+          </div>
+ 
+          <div class="col-lg-3">
+            <h3>Customer Service</h3>
+            <ul>
+              <li><a href="#">FAQ /Contact Us</a></li>
+              <li><a href="#">Return policy</a></li>
+              <li><a href="#">Shipping & Tax</a></li>
+            </ul>
+          </div>
+ 
+          <div class="col-lg-3">
+             <h3>Policies</h3>
+             <ul>
+               <li><a href="#">Terms of Membership</a></li>
+               <li><a href="#">privacy</a></li>
+               <li><a href="#">Terms of Use</a></li>
+             </ul>
+           </div>
+ 
+           <div class="col-lg-3">
+               <h3>Connect with Gilt</h3>
+               <div class="apple">
+                   <i class="fa fa-apple" area-hidden="true" style="font-size: 20px"></i>
+                   <span>ios app</span>
+                   
+              </div>
+              <div class="android">
+                 <i class="fa fa-android" area-hidden="true" style="font-size: 20px"></i>
+                 <span>Android app</span>
+                 
+            </div>
+            <div class="Facebook">
+               <i class="fa fa-facebook-square" area-hidden="true" style="font-size: 20px"></i>
+               <span>Facebook</span>
+               
+          </div>
+          <div class="twitter">
+             <i class="fa fa-twitter" area-hidden="true" style="font-size: 20px"></i>
+             <span>Twitter</span>
+             
+        </div>
+        <div class="instagram">
+           <i class="fa fa-instagram" area-hidden="true" style="font-size: 20px"></i>
+           <span>Instagram</span>
+           
+      </div>
+      <div class="weibo">
+         <i class="fa fa-weibo" area-hidden="true" style="font-size: 20px"></i>
+         <span>Weibo</span>
+         
+    </div>
+               
+             </div>
+                  <div class="col-lg-12">
+             <div class="logo footer-img">
+               <img src="https://static.gilt.com/066bfccac8dc7504cd63f32c52171bc505883f01/img/gilt_logo.svg" alt="">
+             </div>
+             <div id="copyright">
+               Copyright © 2019 All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="http://scintillatetech.com/" target="_blank">Scintillate</a>
+                   </div>
+ 
+           </div>
+ 
+           
+        </div>
+      </section>
+      <!--end footer area-->       
 
 
 
