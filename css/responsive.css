@@ -61,7 +61,7 @@
         margin-left: -300px !important;
     }
     .mut{
-        padding-left: 232px !important;
+        padding-left: 248px !important;
     padding-right: 0px !important;
     padding-top: 11px !important;
     padding-bottom: 9px !important;
@@ -95,5 +95,24 @@
     color: white;
     font-size: 13px;
     font-weight: 600;
+}
+.container {
+    padding-right: 0;
+}
+.footer-area .col-lg-12 {
+    padding-right: 0;
+}
+.header .side-search {
+    padding: 10px 38px;
+}
+.header input[type=text]{
+    width: 301px;
+    margin: 5px 0px 5px 7px;
+}
+.header .form-control {
+    padding-left: 26px;
+    padding-top: 12px;
+    padding-bottom: 17px;
+}
 }
 }
