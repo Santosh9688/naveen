@@ -30,7 +30,107 @@
                 <li><a href="">Gift</a></li>
                 <li><a href="">Women</a></li>
               </ul>
+              <div class="container">
+                  <div class="row">
+                      <div class="col-lg-3"></div>
+                      <div class="col-lg-6">
+                        <div class="cls">
+                            <input type="text" placeholder="search" class="form-control">
+                            <a onclick="focs()" class="">
+                                <i class="fa fa-search"></i>
+                            </a>
+                        </div>
+                      </div>
+                    </div>
+              </div>
              </div>
+             <!-- Footer -->
+             <footer>
+               <div class="footer">
+                 <div class="container">
+                   <div class="row">
+                     <div class="col-lg-2 col-md-2"></div>
+                     <div class="col-lg-2 col-md-2">
+                        <h3>company</h3>
+                        <ul>
+                          <li><a href="#">About</a></li>
+                          <li><a href="#">Careers</a></li>
+                          <li><a href="#">Brand inquires</a></li>
+                        </ul>
+                     </div>
+                     <div class="col-lg-2 col-md-2">
+                        <h3>Customer Service</h3>
+                        <ul>
+                          <li><a href="#">FAQ / Contact Us</a></li>
+                          <li><a href="#">Return Policy</a></li>
+                          <li><a href="#">Shipping & Tax</a></li>
+                        </ul>
+                     </div>
+                     <div class="col-lg-2 col-md-2">
+                        <h3>Policies</h3>
+                        <ul>
+                          <li><a href="#">Terms Of Membership</a></li>
+                          <li><a href="#">Privacy</a></li>
+                          <li><a href="#">Terms Of Use</a></li>
+                        </ul>
+                     </div>
+                     <div class="col-lg-2 col-md-2">
+                        <h3>Connect With Gilt</h3>
+                        <ul>
+                          <li><a href="#">
+                            <span>
+                                <i class="fa fa-apple"></i>
+                            </span>
+                            iOS app
+                          </a></li>
+                          <li><a href="#">
+                            <span>
+                                <i class="fa fa-android"></i>
+                            </span>
+                            Android App
+                          </a></li>
+                          <li><a href="#">
+                            <span>
+                                <i class="fa fa-facebook"></i>
+                            </span>
+                            Facebook
+                          </a></li>
+                          <li><a href="#">
+                              <span>
+                                  <i class="fa fa-twitter"></i>
+                              </span>
+                              Twitter
+                            </a></li>
+                            <li><a href="#">
+                                <span>
+                                    <i class="fa fa-instagram"></i>
+                                </span>
+                                Instagram
+                              </a></li>
+                              <li><a href="#">
+                                  <span>
+                                      <i class="fa fa-weibo"></i>
+                                  </span>
+                                  Weibo
+                                </a></li>
+                        </ul>
+                     </div>
+                   </div>
+                   <div class="row copyright">
+                     <div class="col-lg-3 col-md-3"></div>
+                     <div class="col-lg-6 col-md-6 text-center">
+                       <a href="index.html" title="Gilt_logo">
+                          <img src="https://static.gilt.com/066bfccac8dc7504cd63f32c52171bc505883f01/img/gilt_logo.svg" alt="">
+                       </a>
+                       <br>
+                       <label for="copyright">
+                          © GILT 2007 - 2019 ALL RIGHTS RESERVED
+                       </label>
+                     </div>
+                   </div>
+                 </div>
+               </div>
+             </footer>
       </div>
     <!-- Optional JavaScript -->
     <script>
@@ -38,8 +138,24 @@
         $('.ex').toggle();
         $('#icon-close').toggleClass('fa-bars');
         $('#icon-close').toggleClass('fa-times');
-
     }
+
+    function focs() {
+      $('.form-control').focus();
+    }
+    $(document).ready(function(){ 
+    $(window).scroll(function(){ 
+        if ($(this).scrollTop() > 100) { 
+            $('#scroll').fadeIn(); 
+        } else { 
+            $('#scroll').fadeOut(); 
+        } 
+    }); 
+    $('#scroll').click(function(){ 
+        $("html, body").animate({ scrollTop: 0 }, 600); 
+        return false; 
+    }); 
+});
     </script>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
